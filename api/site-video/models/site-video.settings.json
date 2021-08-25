@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_videos",
+  "info": {
+    "name": "SiteVideo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Text": {
+      "type": "string"
+    },
+    "VideoLink": {
+      "type": "string"
+    }
+  }
+}

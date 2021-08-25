@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "galleries",
+  "info": {
+    "name": "Gallery",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EventName": {
+      "type": "string"
+    },
+    "EventOccurDate": {
+      "type": "datetime"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "EventType": {
+      "type": "string"
+    }
+  }
+}

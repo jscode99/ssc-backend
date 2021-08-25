@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_registrations",
+  "info": {
+    "name": "EventRegistration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "UserType": {
+      "type": "string"
+    },
+    "EmployeeID": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "DepartmentEntity": {
+      "type": "string"
+    },
+    "EventId": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}

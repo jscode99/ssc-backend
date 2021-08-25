@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "name": "Publication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "AuthorName": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "CoverImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "TextArea": {
+      "type": "text"
+    },
+    "Expirydate": {
+      "type": "datetime"
+    }
+  }
+}

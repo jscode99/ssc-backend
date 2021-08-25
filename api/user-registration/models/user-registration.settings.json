@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_registrations",
+  "info": {
+    "name": "UserRegistration",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "FirstName": {
+      "type": "string",
+      "required": false
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "UserType": {
+      "type": "string"
+    },
+    "EmployeeId": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}

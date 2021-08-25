@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "other_resources",
+  "info": {
+    "name": "OtherResource"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
